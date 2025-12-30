@@ -8,5 +8,6 @@ public class StartFightUseCase
     
     public StartFightUseCase(Fight fight) => _fight = fight;
     
-    public void Execute() => _fight.Start();
+    public void 
+        Execute() => _fight.Start();
 }

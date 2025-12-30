@@ -27,7 +27,7 @@ class Program
         
         var fight = new Fight(gladiators, fightResolver, eventBus);
         var startFightUseCase = new StartFightUseCase(fight);
-        var gameStateMachine = new GameStateMachine(eventBus, startFightUseCase);
+        var gameStateMachine = new GameStateMachine(eventBus);
         
         using var consoleView = new ConsoleView(eventBus);
         
@@ -42,19 +42,17 @@ class Program
                 await Task.Delay(500);
                 continue;
             }
-            var key = Console.ReadKey(true);
+            var key = Console.ReadKey();
             
             if (key.Key == ConsoleKey.Escape)
             {
+                
                 Console.Clear();
                 Console.WriteLine("Завершение работы...");
                 break;
             }
             
-            gameStateMachine.RequestFight();
-            
-            // Ограничение частоты нажатий
-            await Task.Delay(100);
+            startFightUseCase.Execute();
         }
     }
 }

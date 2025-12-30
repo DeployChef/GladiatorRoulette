@@ -8,25 +8,15 @@ namespace GladiatorRoulette.Application;
 public class GameStateMachine
 {
     private readonly IEventBus _eventBus;
-    private readonly StartFightUseCase _startFightUseCase;
     
     public GameState CurrentState { get; private set; } = GameState.Idle;
     
-    public GameStateMachine(IEventBus eventBus, StartFightUseCase startFightUseCase)
+    public GameStateMachine(IEventBus eventBus)
     {
         _eventBus = eventBus;
-        _startFightUseCase = startFightUseCase;
         
         _eventBus.Subscribe<FightStarted>(OnFightStarted);
         _eventBus.Subscribe<FightFinished>(OnFightFinished);
-    }
-    
-    public void RequestFight()
-    {
-        if (CurrentState != GameState.Idle) return;
-        
-        CurrentState = GameState.Fighting;
-        _startFightUseCase.Execute();
     }
     
     private void OnFightStarted(FightStarted e)
