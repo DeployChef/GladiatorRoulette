@@ -195,10 +195,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e543985a95c1844cb5de68f3b6f1371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Presentation.GladiatorView
-  gladiatorRect: {fileID: 7195296329354848387}
-  nameText: {fileID: 2454382063793499481}
-  jumpHeight: 50
-  jumpDuration: 0.5
+  gladiatorId: 
+  bodyRenderer: {fileID: 7195296329354848387}
+  nameLabel: {fileID: 2454382063793499481}
 --- !u!1 &5936157716979359946
 GameObject:
   m_ObjectHideFlags: 0

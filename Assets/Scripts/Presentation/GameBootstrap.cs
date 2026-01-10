@@ -1,14 +1,15 @@
-using System.Collections.Generic;
-using System.Linq;
-using UnityEngine;
-using Domain;
-using Domain.Rules;
-using Domain.Events;
 using Application;
+using Application.Battle;
 using Application.Enums;
+using Domain;
+using Domain.Events;
+using Domain.Rules;
 using Infrastructure;
 using Infrastructure.Random;
 using Presentation.Data;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
 
 namespace Presentation
 {
@@ -22,6 +23,8 @@ namespace Presentation
         [Header("Data")]
         [SerializeField] private GladiatorDatabase gladiatorDatabase; // База данных гладиаторов из редактора
         
+        [SerializeField] private BattleSceneController battleSceneController;
+
         // Зависимости домена и приложения
         private IEventBus _eventBus;
         private IRandomProvider _randomProvider;
@@ -29,7 +32,11 @@ namespace Presentation
         private Fight _fight;
         private GameStateMachine _gameStateMachine;
         private StartFightUseCase _startFightUseCase;
-        
+
+        // Application layer
+        private BattleEventQueue _battleEventQueue;
+        private BattleFacade _battleFacade;
+
         // Списки гладиаторов
         private List<Gladiator> _domainGladiators = new();
         private Dictionary<Gladiator, Color> _gladiatorColors = new Dictionary<Gladiator, Color>();
@@ -64,8 +71,22 @@ namespace Presentation
             
             // 6. Создаем Use Case для начала боя
             _startFightUseCase = new StartFightUseCase(_fight);
+
+            // 7. Application слой
+            _battleEventQueue = new BattleEventQueue();
+            _battleFacade = new BattleFacade(_startFightUseCase, _battleEventQueue);
+
+            _eventBus.Subscribe<FightStarted>(OnDomainEvent);
+            _eventBus.Subscribe<FightFinished>(OnDomainEvent);
+
+            battleSceneController.Init(_battleFacade, gladiatorDatabase);
         }
-        
+
+        private void OnDomainEvent(IDomainEvent domainEvent)
+        {
+            _battleFacade.OnDomainEvent(domainEvent);
+        }
+
         /// <summary>
         /// Загружает гладиаторов из GladiatorDatabase.
         /// Создает Domain.Gladiator объекты из GladiatorData.
@@ -78,7 +99,6 @@ namespace Presentation
                 return;
             }
             
-            // Получаем случайных гладиаторов из базы
             var gladiatorDataList = gladiatorDatabase.AllGladiators;
             
             if (gladiatorDataList.Count == 0)
@@ -87,15 +107,12 @@ namespace Presentation
                 return;
             }
             
-            // Создаем доменные объекты Gladiator из данных
             _domainGladiators.Clear();
-            _gladiatorColors.Clear();
             
             foreach (var data in gladiatorDataList)
             {
                 var gladiator = new Gladiator(data.GetId(), data.Name);
                 _domainGladiators.Add(gladiator);
-                _gladiatorColors[gladiator] = data.Color;
             }
             
             Debug.Log($"GameBootstrap: Loaded {_domainGladiators.Count} gladiators for fight.");
