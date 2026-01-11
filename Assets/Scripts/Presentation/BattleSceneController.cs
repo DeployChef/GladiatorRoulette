@@ -1,5 +1,4 @@
 ﻿using Application.Battle;
-using Assets.Scripts.Presentation;
 using Presentation.Data;
 using UnityEngine;
 

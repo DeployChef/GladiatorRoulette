@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using UnityEngine;
+﻿using UnityEngine;
+using Random = UnityEngine.Random;
 
-namespace Assets.Scripts.Presentation
+namespace Presentation
 {
 
     public class ArenaAudioController : MonoBehaviour
@@ -14,9 +12,9 @@ namespace Assets.Scripts.Presentation
 
         [Header("SFX")]
         [SerializeField] private AudioSource sfxSource;
-        [SerializeField] private AudioClip fightStartClip;
-        [SerializeField] private AudioClip fightLoopClip;
-        [SerializeField] private AudioClip victoryClip;
+        [SerializeField] private AudioClip fightClip;
+        [SerializeField] private AudioClip screamClip;
+        [SerializeField] private AudioClip[] crowdClips;
 
         public void PlayArenaMusic()
         {
@@ -30,26 +28,18 @@ namespace Assets.Scripts.Presentation
             musicSource.Stop();
         }
 
-        public void PlayFightStart()
+        public void PlayScream()
         {
-            sfxSource.PlayOneShot(fightStartClip);
+            sfxSource.PlayOneShot(screamClip);
         }
-
-        public void PlayFightLoop()
+        public void PlayFight()
         {
-            sfxSource.clip = fightLoopClip;
-            sfxSource.loop = true;
-            sfxSource.Play();
-        }
-
-        public void StopFightLoop()
-        {
-            sfxSource.Stop();
+            sfxSource.PlayOneShot(fightClip);
         }
 
         public void PlayVictory()
         {
-            sfxSource.PlayOneShot(victoryClip);
+            sfxSource.PlayOneShot(crowdClips[Random.Range(0, crowdClips.Length)]);
         }
     }
 }

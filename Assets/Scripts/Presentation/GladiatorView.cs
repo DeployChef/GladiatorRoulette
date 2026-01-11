@@ -9,8 +9,9 @@ namespace Presentation
     public class GladiatorView : MonoBehaviour
     {
         [SerializeField] private string gladiatorId;
-        [SerializeField] private Image bodyRenderer;
         [SerializeField] private TextMeshProUGUI nameLabel;
+        [SerializeField] private Animator animator;
+        [SerializeField] private Transform spriteTransform;
 
         public string Id => gladiatorId;
 
@@ -18,19 +19,19 @@ namespace Presentation
         {
             gladiatorId = data.GetId();
             nameLabel.text = data.Name;
-            bodyRenderer.color = data.Color;
         }
 
         public void FaceCenter(Vector3 center)
         {
-            if (center.x < transform.position.x)
-                transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            if (center.x < spriteTransform.position.x)
+                spriteTransform.localScale = new Vector3(-Mathf.Abs(spriteTransform.localScale.x), spriteTransform.localScale.y, spriteTransform.localScale.z);
             else
-                transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+                spriteTransform.localScale = new Vector3(Mathf.Abs(spriteTransform.localScale.x), spriteTransform.localScale.y, spriteTransform.localScale.z);
         }
 
         public Tween JumpToCenter(Vector2 center)
         {
+            animator.SetTrigger("Jump");
             RectTransform rt = (RectTransform)transform;
 
             Vector2 start = rt.anchoredPosition;
@@ -64,6 +65,7 @@ namespace Presentation
 
         public Tween ThrowOut(Vector3 target)
         {
+            animator.SetTrigger("Lose");
             return transform
                 .DOMove(target, 0.6f)
                 .SetEase(Ease.InBack);
@@ -71,6 +73,7 @@ namespace Presentation
 
         public void PlayVictory()
         {
+            animator.SetTrigger("Win");
             transform.DOPunchScale(Vector3.one * 0.2f, 2f);
         }
     }

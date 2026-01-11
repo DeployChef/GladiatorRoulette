@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ede7b64f1f5c341be1cac70737f349, type: 3}
   m_Name: Gladiator_6
   m_EditorClassIdentifier: Assembly-CSharp::Presentation.Data.GladiatorData
-  gladiatorName: "6 \u0412\u0430\u0440\u0438\u0430\u043D\u0442"
+  gladiatorName: "\u041C\u0438\u0445\u0430\u043B \u041C\u0430\u043A\u0441\u0438\u043C\u0443\u0441"
   color: {r: 0.01234436, g: 0, b: 1, a: 1}
