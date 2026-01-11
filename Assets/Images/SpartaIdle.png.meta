@@ -1,0 +1,398 @@
+fileFormatVersion: 2
+guid: 988073433003a014d8977b7bc1fc1b5f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4637572097582119531
+    second: SpartaIdle_0
+  - first:
+      213: 4499859735104459684
+    second: SpartaIdle_1
+  - first:
+      213: 1041865716529410081
+    second: SpartaIdle_2
+  - first:
+      213: -6964342676769795509
+    second: SpartaIdle_3
+  - first:
+      213: -2201861235651306145
+    second: SpartaIdle_4
+  - first:
+      213: -5865058888228610179
+    second: SpartaIdle_5
+  - first:
+      213: 4860682256374449092
+    second: SpartaIdle_6
+  - first:
+      213: 6879676040697128490
+    second: SpartaIdle_7
+  - first:
+      213: 4380745162249143016
+    second: SpartaIdle_8
+  - first:
+      213: 1671116157165035655
+    second: SpartaIdle_9
+  - first:
+      213: 3833140087841442443
+    second: SpartaIdle_10
+  - first:
+      213: -622862117974932665
+    second: SpartaIdle_11
+  - first:
+      213: 924768959353363579
+    second: SpartaIdle_12
+  - first:
+      213: 2551327280045102168
+    second: SpartaIdle_13
+  - first:
+      213: -375975884153151859
+    second: SpartaIdle_14
+  - first:
+      213: -174983416766892599
+    second: SpartaIdle_15
+  - first:
+      213: -8450276609169002844
+    second: SpartaIdle_16
+  - first:
+      213: -1810988973124601201
+    second: SpartaIdle_17
+  - first:
+      213: -8608629589352388031
+    second: SpartaIdle_18
+  - first:
+      213: -7142771149013491597
+    second: SpartaIdle_19
+  - first:
+      213: 4790938512072828049
+    second: SpartaIdle_20
+  - first:
+      213: 2854370878221710807
+    second: SpartaIdle_21
+  - first:
+      213: 8176982261397616555
+    second: SpartaIdle_22
+  - first:
+      213: 7638526827216780969
+    second: SpartaIdle_23
+  - first:
+      213: 6968708928158490721
+    second: SpartaIdle_24
+  - first:
+      213: -3008014816761671668
+    second: SpartaIdle_25
+  - first:
+      213: -9148280854271004574
+    second: SpartaIdle_26
+  - first:
+      213: 6619204098489674833
+    second: SpartaIdle_27
+  - first:
+      213: -8887923630882588000
+    second: SpartaIdle_28
+  - first:
+      213: 328904950710135692
+    second: SpartaIdle_29
+  - first:
+      213: 95989405806355486
+    second: SpartaIdle_30
+  - first:
+      213: 25081935713532497
+    second: SpartaIdle_31
+  - first:
+      213: 5881033665039376288
+    second: SpartaIdle_32
+  - first:
+      213: 4450035440393842486
+    second: SpartaIdle_33
+  - first:
+      213: -487409807528849506
+    second: SpartaIdle_34
+  - first:
+      213: 2897995501677641919
+    second: SpartaIdle_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpartaIdle_31
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 39
+        width: 193
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15afb7c33eb195000800000000000000
+      internalID: 25081935713532497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaIdle_32
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 47
+        width: 140
+        height: 339
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af19c495f0ad9150800000000000000
+      internalID: 5881033665039376288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaIdle_33
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 50
+        width: 145
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fe29ed7a3b1cd30800000000000000
+      internalID: 4450035440393842486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaIdle_34
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 51
+        width: 177
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f833acc5f5c39f0800000000000000
+      internalID: -487409807528849506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaIdle_35
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 52
+        width: 175
+        height: 333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb00d26fd8fb73820800000000000000
+      internalID: 2897995501677641919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 76ac2d69cc4651543abbaaaf09919a69
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SpartaIdle_0: 4637572097582119531
+      SpartaIdle_1: 4499859735104459684
+      SpartaIdle_10: 3833140087841442443
+      SpartaIdle_11: -622862117974932665
+      SpartaIdle_12: 924768959353363579
+      SpartaIdle_13: 2551327280045102168
+      SpartaIdle_14: -375975884153151859
+      SpartaIdle_15: -174983416766892599
+      SpartaIdle_16: -8450276609169002844
+      SpartaIdle_17: -1810988973124601201
+      SpartaIdle_18: -8608629589352388031
+      SpartaIdle_19: -7142771149013491597
+      SpartaIdle_2: 1041865716529410081
+      SpartaIdle_20: 4790938512072828049
+      SpartaIdle_21: 2854370878221710807
+      SpartaIdle_22: 8176982261397616555
+      SpartaIdle_23: 7638526827216780969
+      SpartaIdle_24: 6968708928158490721
+      SpartaIdle_25: -3008014816761671668
+      SpartaIdle_26: -9148280854271004574
+      SpartaIdle_27: 6619204098489674833
+      SpartaIdle_28: -8887923630882588000
+      SpartaIdle_29: 328904950710135692
+      SpartaIdle_3: -6964342676769795509
+      SpartaIdle_30: 95989405806355486
+      SpartaIdle_31: 25081935713532497
+      SpartaIdle_32: 5881033665039376288
+      SpartaIdle_33: 4450035440393842486
+      SpartaIdle_34: -487409807528849506
+      SpartaIdle_35: 2897995501677641919
+      SpartaIdle_36: 718908458
+      SpartaIdle_4: -2201861235651306145
+      SpartaIdle_5: -5865058888228610179
+      SpartaIdle_6: 4860682256374449092
+      SpartaIdle_7: 6879676040697128490
+      SpartaIdle_8: 4380745162249143016
+      SpartaIdle_9: 1671116157165035655
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: 49063210b5ae8ec4e8c45464fa8657bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8875717976779430409
+    second: SpartaSprites_0
+  - first:
+      213: 4748770197806861040
+    second: SpartaSprites_1
+  - first:
+      213: -5830770737983926890
+    second: SpartaSprites_2
+  - first:
+      213: -311395685525537097
+    second: SpartaSprites_3
+  - first:
+      213: 4641022687180973486
+    second: SpartaSprites_4
+  - first:
+      213: -632083955917599037
+    second: SpartaSprites_5
+  - first:
+      213: -6973589399168510327
+    second: SpartaSprites_6
+  - first:
+      213: -3200868242419162658
+    second: SpartaSprites_7
+  - first:
+      213: -8567459189621989016
+    second: SpartaSprites_8
+  - first:
+      213: 7635182490670839162
+    second: SpartaSprites_9
+  - first:
+      213: 2276790042274329421
+    second: SpartaSprites_10
+  - first:
+      213: 8239624646575517539
+    second: SpartaSprites_11
+  - first:
+      213: 1380939805369911753
+    second: SpartaSprites_12
+  - first:
+      213: 7883067979508395318
+    second: SpartaSprites_13
+  - first:
+      213: 534656027731944369
+    second: SpartaSprites_14
+  - first:
+      213: 2639932694061255993
+    second: SpartaSprites_15
+  - first:
+      213: 3706995869356435183
+    second: SpartaSprites_16
+  - first:
+      213: -1587244903265337838
+    second: SpartaSprites_17
+  - first:
+      213: -9034907371668299233
+    second: SpartaSprites_18
+  - first:
+      213: -2615475057150148398
+    second: SpartaSprites_19
+  - first:
+      213: -4799239468637550748
+    second: SpartaSprites_20
+  - first:
+      213: -2360769541047522427
+    second: SpartaSprites_21
+  - first:
+      213: 6852463965592838129
+    second: SpartaSprites_22
+  - first:
+      213: 3129711870720943407
+    second: SpartaSprites_23
+  - first:
+      213: 5278585115436556077
+    second: SpartaSprites_24
+  - first:
+      213: -1149806012295531515
+    second: SpartaSprites_25
+  - first:
+      213: 6942145577138173058
+    second: SpartaSprites_26
+  - first:
+      213: -3642493777955052422
+    second: SpartaSprites_27
+  - first:
+      213: -8584715534444080594
+    second: SpartaSprites_28
+  - first:
+      213: 6884054936816654129
+    second: SpartaSprites_29
+  - first:
+      213: -7800541149519130774
+    second: SpartaSprites_30
+  - first:
+      213: -317161192829282213
+    second: SpartaSprites_31
+  - first:
+      213: -1733330078923808068
+    second: SpartaSprites_32
+  - first:
+      213: 2570615817147125813
+    second: SpartaSprites_33
+  - first:
+      213: -7634403857384056777
+    second: SpartaSprites_34
+  - first:
+      213: 6562866100845209427
+    second: SpartaSprites_35
+  - first:
+      213: 2041196502078285653
+    second: SpartaSprites_36
+  - first:
+      213: 4696488591439913709
+    second: SpartaSprites_37
+  - first:
+      213: -4696606614507328344
+    second: SpartaSprites_38
+  - first:
+      213: 5785534331445957778
+    second: SpartaSprites_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpartaSprites_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 668
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a9c7c6972ec2b70800000000000000
+      internalID: 8875717976779430409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 668
+        width: 63
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa4d38b55507e140800000000000000
+      internalID: 4748770197806861040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_2
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 668
+        width: 63
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69dc9b318e0f41fa0800000000000000
+      internalID: -5830770737983926890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_3
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 668
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be39ab1643bdabf0800000000000000
+      internalID: -311395685525537097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_4
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 668
+        width: 65
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea563f77b89386040800000000000000
+      internalID: 4641022687180973486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_5
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 668
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cece43bdf26a37f0800000000000000
+      internalID: -632083955917599037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 546
+        width: 66
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986912d9365d83f90800000000000000
+      internalID: -6973589399168510327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_7
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 547
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1e6cdda4b3493d0800000000000000
+      internalID: -3200868242419162658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_8
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 547
+        width: 63
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861ece662454a1980800000000000000
+      internalID: -8567459189621989016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_9
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 546
+        width: 63
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75b7b7b50e95f960800000000000000
+      internalID: 7635182490670839162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_10
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 547
+        width: 61
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4378e10b78c89f10800000000000000
+      internalID: 2276790042274329421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_11
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 547
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36fefade5f6095270800000000000000
+      internalID: 8239624646575517539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 547
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9454bbf651a2310800000000000000
+      internalID: 1380939805369911753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_13
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 547
+        width: 65
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63daad2af88466d60800000000000000
+      internalID: 7883067979508395318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_14
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 547
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3ebf113da7b6700800000000000000
+      internalID: 534656027731944369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_15
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 425
+        width: 74
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d067c5ccce2a420800000000000000
+      internalID: 2639932694061255993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_16
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 425
+        width: 73
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6a4d84a15e17330800000000000000
+      internalID: 3706995869356435183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_17
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 425
+        width: 85
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ef1598b29f8f9e0800000000000000
+      internalID: -1587244903265337838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_18
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 425
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12272d4d9f8d9280800000000000000
+      internalID: -9034907371668299233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_19
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 425
+        width: 74
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0cbabfa47f3bbd0800000000000000
+      internalID: -2615475057150148398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_20
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 425
+        width: 74
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46703d7712da56db0800000000000000
+      internalID: -4799239468637550748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_21
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 425
+        width: 99
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58bec4d3c9cdc3fd0800000000000000
+      internalID: -2360769541047522427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_22
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 425
+        width: 93
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff5359bba7d81f50800000000000000
+      internalID: 6852463965592838129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_23
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 282
+        width: 71
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2525af4d58fe6b20800000000000000
+      internalID: 3129711870720943407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_24
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 282
+        width: 71
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f9242023d414940800000000000000
+      internalID: 5278585115436556077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_25
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 283
+        width: 78
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504348416811b00f0800000000000000
+      internalID: -1149806012295531515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_26
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 290
+        width: 83
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284be501f94775060800000000000000
+      internalID: 6942145577138173058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_27
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 282
+        width: 87
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a742b6c2533437dc0800000000000000
+      internalID: -3642493777955052422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_28
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 282
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22dea784b6fcd880800000000000000
+      internalID: -8584715534444080594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_29
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 153
+        width: 66
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1371b33ed73198f50800000000000000
+      internalID: 6884054936816654129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_30
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 153
+        width: 65
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f481f4729eeb390800000000000000
+      internalID: -7800541149519130774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_31
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 153
+        width: 69
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b581fd45397399bf0800000000000000
+      internalID: -317161192829282213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_32
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 153
+        width: 69
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb22f3f0a79f1f7e0800000000000000
+      internalID: -1733330078923808068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_33
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 153
+        width: 67
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5301e0b4779aca320800000000000000
+      internalID: 2570615817147125813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_34
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 153
+        width: 69
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73850c8f3262d0690800000000000000
+      internalID: -7634403857384056777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_35
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 23
+        width: 68
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357e45972fbf31b50800000000000000
+      internalID: 6562866100845209427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_36
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 23
+        width: 67
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55765276769c35c10800000000000000
+      internalID: 2041196502078285653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_37
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 24
+        width: 73
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de26378ad774d2140800000000000000
+      internalID: 4696488591439913709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_38
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 24
+        width: 102
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac6a84fa2d42deb0800000000000000
+      internalID: -4696606614507328344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpartaSprites_39
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 26
+        width: 99
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294d9a542d85a4050800000000000000
+      internalID: 5785534331445957778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1fc3ba46af3e2454e8fd6310c0334269
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SpartaSprites_0: 8875717976779430409
+      SpartaSprites_1: 4748770197806861040
+      SpartaSprites_10: 2276790042274329421
+      SpartaSprites_11: 8239624646575517539
+      SpartaSprites_12: 1380939805369911753
+      SpartaSprites_13: 7883067979508395318
+      SpartaSprites_14: 534656027731944369
+      SpartaSprites_15: 2639932694061255993
+      SpartaSprites_16: 3706995869356435183
+      SpartaSprites_17: -1587244903265337838
+      SpartaSprites_18: -9034907371668299233
+      SpartaSprites_19: -2615475057150148398
+      SpartaSprites_2: -5830770737983926890
+      SpartaSprites_20: -4799239468637550748
+      SpartaSprites_21: -2360769541047522427
+      SpartaSprites_22: 6852463965592838129
+      SpartaSprites_23: 3129711870720943407
+      SpartaSprites_24: 5278585115436556077
+      SpartaSprites_25: -1149806012295531515
+      SpartaSprites_26: 6942145577138173058
+      SpartaSprites_27: -3642493777955052422
+      SpartaSprites_28: -8584715534444080594
+      SpartaSprites_29: 6884054936816654129
+      SpartaSprites_3: -311395685525537097
+      SpartaSprites_30: -7800541149519130774
+      SpartaSprites_31: -317161192829282213
+      SpartaSprites_32: -1733330078923808068
+      SpartaSprites_33: 2570615817147125813
+      SpartaSprites_34: -7634403857384056777
+      SpartaSprites_35: 6562866100845209427
+      SpartaSprites_36: 2041196502078285653
+      SpartaSprites_37: 4696488591439913709
+      SpartaSprites_38: -4696606614507328344
+      SpartaSprites_39: 5785534331445957778
+      SpartaSprites_4: 4641022687180973486
+      SpartaSprites_5: -632083955917599037
+      SpartaSprites_6: -6973589399168510327
+      SpartaSprites_7: -3200868242419162658
+      SpartaSprites_8: -8567459189621989016
+      SpartaSprites_9: 7635182490670839162
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
